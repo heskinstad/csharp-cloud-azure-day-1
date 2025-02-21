@@ -1,4 +1,6 @@
 name: Azure Static Web Apps CI/CD
+env:
+  VITE_ENDPOINT_URL: https://thankful-hill-0ee1fb503.4.azurestaticapps.net/
 
 on:
   push:
